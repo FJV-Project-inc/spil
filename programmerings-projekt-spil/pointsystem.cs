@@ -11,7 +11,12 @@ public partial class pointsystem : TextEdit
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
 	public override void _Process(double delta)
 	{
-		
-		
+ 		int points 0; 
+		if (Input.IsKeyPressed(Key.D))
+		{
+			points++ 
+		}
+{
+
 	}
 }
