@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bia3jchnrhoey"]
+
+[ext_resource type="Texture2D" uid="uid://dfqacpuir05ve" path="res://Unavngivet(1).png" id="1_wtcfe"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0e48y"]
+
+[node name="Node2D" type="Node2D" unique_id=1465768899]
+
+[node name="player" type="CharacterBody2D" parent="." unique_id=1497769181]
+
+[node name="Sprite2D" type="Sprite2D" parent="player" unique_id=261039096]
+position = Vector2(28.99997, -10)
+scale = Vector2(0.52425, 0.47224995)
+texture = ExtResource("1_wtcfe")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player" unique_id=2068006211]
+shape = SubResource("CapsuleShape2D_0e48y")
+
+[node name="Camera2D" type="Camera2D" parent="player" unique_id=1373310079]
