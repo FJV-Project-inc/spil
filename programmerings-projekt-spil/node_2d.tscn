@@ -14,6 +14,7 @@ radius = 59.0
 height = 388.0
 
 [node name="Node2D" type="Node2D" unique_id=1465768899]
+script = ExtResource("4_0hol4")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=1213708686]
 position = Vector2(87.00003, 369)
@@ -48,9 +49,8 @@ offset = Vector2(0, -0.01)
 ignore_rotation = false
 zoom = Vector2(0.985, 0.985)
 
-[node name="points" type="TextEdit" parent="." unique_id=1289810611]
-offset_left = -211.0
-offset_top = -42.0
-offset_right = -100.0
-offset_bottom = -13.0
-script = ExtResource("4_0hol4")
+[node name="PointTavle" type="Label" parent="player/Camera2D" unique_id=1370490034]
+offset_left = -155.50053
+offset_top = 2.469822
+offset_right = -107.500534
+offset_bottom = 29.469822
