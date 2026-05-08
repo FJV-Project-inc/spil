@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bpxkqeues0xww"]
 
 [ext_resource type="Texture2D" uid="uid://dgkeiluiad7kc" path="res://assets/Unavngivet(1)(1).png" id="1_b0x87"]
-[ext_resource type="Script" uid="uid://dtusdoabfg6qr" path="res://scripts/Player.cs" id="1_o7kd7"]
+[ext_resource type="Script" uid="uid://c2uo6elavrwkv" path="res://scripts/stein.gd" id="1_o7kd7"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ravae"]
 size = Vector2(536, 530)

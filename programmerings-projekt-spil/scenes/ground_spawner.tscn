@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bkjosblrxxkk1"]
+
+[ext_resource type="Script" uid="uid://drifg0ednhd0r" path="res://scripts/steinMover.gd" id="1_awotq"]
+[ext_resource type="PackedScene" uid="uid://bu8fjqbsf58ub" path="res://scenes/mountain.tscn" id="2_pobxd"]
+
+[node name="GroundSpawner" type="Node2D" unique_id=1347904109]
+script = ExtResource("1_awotq")
+
+[node name="Mountain" parent="." unique_id=647674783 instance=ExtResource("2_pobxd")]
