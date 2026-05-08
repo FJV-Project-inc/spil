@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bpxkqeues0xww"]
+
+[ext_resource type="Texture2D" uid="uid://dgkeiluiad7kc" path="res://assets/Unavngivet(1)(1).png" id="1_b0x87"]
+[ext_resource type="Script" uid="uid://dtusdoabfg6qr" path="res://scripts/Player.cs" id="1_o7kd7"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ravae"]
+size = Vector2(536, 530)
+
+[node name="Sisyphus" type="CharacterBody2D" unique_id=9898251]
+scale = Vector2(0.5, 0.5)
+script = ExtResource("1_o7kd7")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1267158279]
+rotation = 0.7923795
+texture = ExtResource("1_b0x87")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1000956459]
+position = Vector2(-136, 4)
+shape = SubResource("RectangleShape2D_ravae")

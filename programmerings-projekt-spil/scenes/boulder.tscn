@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://pu5lvcagbf6w"]
+
+[ext_resource type="Texture2D" uid="uid://bus7oie2lde13" path="res://assets/sisyphus-removebg-preview(3).png" id="1_475t6"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7lox5"]
+radius = 55.00909
+
+[node name="boulder" type="RigidBody2D" unique_id=661534600]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1737335893]
+position = Vector2(0, -2)
+scale = Vector2(3, 3)
+texture = ExtResource("1_475t6")
+offset = Vector2(-45, 86)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=86470987]
+scale = Vector2(3, 3)
+shape = SubResource("CircleShape2D_7lox5")

@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bu8fjqbsf58ub"]
+
+[ext_resource type="Texture2D" uid="uid://ddsyy8o42de6" path="res://assets/sisyphus-removebg-preview(2).png" id="1_wb4uc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_mh5ic"]
+size = Vector2(1366, 166)
+
+[node name="Mountain" type="StaticBody2D" unique_id=647674783]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=100835115]
+position = Vector2(679.00006, 562.00006)
+rotation = 0.47647488
+scale = Vector2(2.3, 2.3)
+texture = ExtResource("1_wb4uc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=639630294]
+position = Vector2(601, 650)
+shape = SubResource("RectangleShape2D_mh5ic")

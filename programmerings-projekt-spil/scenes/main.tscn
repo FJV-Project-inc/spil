@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bia3jchnrhoey"]
+
+[ext_resource type="Script" uid="uid://cqdkgv8poljfc" path="res://scripts/pointsystem.cs" id="1_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://bu8fjqbsf58ub" path="res://scenes/mountain.tscn" id="2_0wfyh"]
+[ext_resource type="PackedScene" uid="uid://bpxkqeues0xww" path="res://scenes/sisyphus.tscn" id="3_sugp2"]
+[ext_resource type="PackedScene" uid="uid://pu5lvcagbf6w" path="res://scenes/boulder.tscn" id="4_jyhfs"]
+
+[node name="World" type="Node2D" unique_id=1465768899]
+script = ExtResource("1_0wfyh")
+
+[node name="Mountain" parent="." unique_id=647674783 instance=ExtResource("2_0wfyh")]
+position = Vector2(2, -1)
+
+[node name="Sisyphus" parent="." unique_id=9898251 instance=ExtResource("3_sugp2")]
+position = Vector2(271, 425)
+
+[node name="boulder" parent="." unique_id=661534600 instance=ExtResource("4_jyhfs")]
+position = Vector2(514, 384.00003)

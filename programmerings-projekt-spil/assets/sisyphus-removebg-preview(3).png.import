@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfqacpuir05ve"
-path="res://.godot/imported/Unavngivet(1).png-567a5dbf917cda3275d5527417a06bb5.ctex"
+uid="uid://bus7oie2lde13"
+path="res://.godot/imported/sisyphus-removebg-preview(3).png-f4dcb8d90a2b12741e7ddbd378c252ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Unavngivet(1).png"
-dest_files=["res://.godot/imported/Unavngivet(1).png-567a5dbf917cda3275d5527417a06bb5.ctex"]
+source_file="res://assets/sisyphus-removebg-preview(3).png"
+dest_files=["res://.godot/imported/sisyphus-removebg-preview(3).png-f4dcb8d90a2b12741e7ddbd378c252ec.ctex"]
 
 [params]
 
